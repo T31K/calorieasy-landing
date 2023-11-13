@@ -24,10 +24,7 @@ const Footer = () => {
             <Fade direction='up' triggerOnce delay={100}>
               <NextImage src={footerWidget.logo} alt="Logo" />
               <p>
-                © 2020 Team
-                <Link href={footerWidget.siteUrl}>
-                  {footerWidget.siteName}
-                </Link>
+                © {new Date().getFullYear()} T31 Labs
               </p>
               <Text className="copyright" content="All rights reserved." />
               <Nav className="social__share">

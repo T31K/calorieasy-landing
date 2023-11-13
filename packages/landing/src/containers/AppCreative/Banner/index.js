@@ -28,7 +28,7 @@ const Banner = () => {
           <Fade direction='up' delay={100}>
             <Heading
               as="h1"
-              content="Your trusted mobile app to make days beautiful 😘"
+              content="Track calories in seconds with AI"
             />
           </Fade>
           <Fade direction='up' delay={200}>

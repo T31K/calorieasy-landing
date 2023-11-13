@@ -581,13 +581,7 @@ export const footerWidget = {
       id: 2,
       icon: <Icon icon={twitter} />,
       name: 'twitter',
-      link: '#',
-    },
-    {
-      id: 3,
-      icon: <Icon icon={dribbble} />,
-      name: 'dribbble',
-      link: '#',
+      link: 'https://twitter.com/t31k__',
     },
   ],
   aboutUs: {

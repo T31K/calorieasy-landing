@@ -23,8 +23,8 @@ export default function AppCreative() {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>App Creative | A next js landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Calorieasy | Track calories in seconds with AI</title>
+          <meta name="Description" content="Track calories in seconds with AI" />
           <meta name="theme-color" content="#6C247E" />
           <meta name="keywords" content="React, React js, Next, Next js, Super fast next js landing, Creative landing, Next js landing" />
           <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700" rel="stylesheet" />
