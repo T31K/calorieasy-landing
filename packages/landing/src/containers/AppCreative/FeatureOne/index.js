@@ -11,7 +11,7 @@ import { featureOne } from 'common/data/AppCreative';
 const FeatureOne = () => {
   const { title, thumb, features } = featureOne;
   return (
-    <SectionWrapper>
+    <SectionWrapper id="features">
       <TextWrapper className="w-full">
         <Heading
           content={'How It Works'}
