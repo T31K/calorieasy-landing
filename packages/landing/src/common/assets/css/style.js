@@ -59,11 +59,6 @@ const ResetCSS = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
-
-  li {
-    list-style-type: none;
-  }
-
   a {
     text-decoration: none;
   }

@@ -593,22 +593,22 @@ export const footerWidget = {
     menuItems: [
       {
         id: 1,
-        url: '#',
+        url: '/refund',
         text: 'Refund Policy',
       },
       {
         id: 2,
-        url: '#',
+        url: '/privacy',
         text: 'Privacy Policy',
       },
       {
         id: 3,
-        url: '#',
+        url: '/terms_and_conditions',
         text: 'Terms & Conditions',
       },
       {
         id: 4,
-        url: '#',
+        url: '/sitemap.xml',
         text: 'Site Map',
       },
     ],
