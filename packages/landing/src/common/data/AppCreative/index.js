@@ -13,8 +13,8 @@ export const navbar = {
     },
     {
       id: 2,
-      label: 'Key Features',
-      path: '#keyFeatures',
+      label: 'Features',
+      path: '#features',
       offset: '73',
     },
     {
