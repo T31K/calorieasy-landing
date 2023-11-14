@@ -8,7 +8,6 @@ import Navbar from 'containers/AppCreative/Navbar';
 import Banner from 'containers/AppCreative/Banner';
 import Privacy from 'containers/AppCreative/Privacy';
 import Experiences from 'containers/AppCreative/Experience';
-import ChooseUs from 'containers/AppCreative/ChooseUs';
 import Pricing from 'containers/AppCreative/Pricing';
 import Testimonials from 'containers/AppCreative/Testimonials';
 import AvailableStore from 'containers/AppCreative/AvailableStore';
