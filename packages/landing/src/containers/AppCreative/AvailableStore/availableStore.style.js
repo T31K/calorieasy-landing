@@ -162,7 +162,7 @@ export const SubscribeField = styled.div`
       background-color: transparent;
       border: 0px solid;
       color: ${themeGet('colors.white')};
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Raleway', sans-serif;
       ::placeholder {
         color: ${rgba('#ffffff', 0.8)};
         opacity: 1; /* Firefox */

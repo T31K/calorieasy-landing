@@ -5,12 +5,7 @@ import Heading from 'common/components/Heading';
 import NextImage from 'common/components/NextImage';
 import Text from 'common/components/Text';
 
-import FooterWrapper, {
-  FooterInner,
-  CopyrightInfo,
-  FooterWidget,
-  Nav,
-} from './footer.style';
+import FooterWrapper, { FooterInner, CopyrightInfo, FooterWidget, Nav } from './footer.style';
 
 import { footerWidget } from 'common/data/AppCreative';
 import { Fade } from 'react-awesome-reveal';
@@ -21,15 +16,27 @@ const Footer = () => {
       <Container>
         <FooterInner>
           <CopyrightInfo>
-            <Fade direction='up' triggerOnce delay={100}>
-              <NextImage src={footerWidget.logo} alt="Logo" />
-              <p>
-                © {new Date().getFullYear()} T31 Labs
-              </p>
-              <Text className="copyright" content="All rights reserved." />
+            <Fade
+              direction="up"
+              triggerOnce
+              delay={100}
+            >
+              <NextImage
+                src={footerWidget.logo}
+                alt="Logo"
+              />
+              <p>© {new Date().getFullYear()} T31 Labs</p>
+              <Text
+                className="copyright"
+                content="All rights reserved."
+              />
               <Nav className="social__share">
                 {footerWidget.socialLinks.map((item) => (
-                  <Link key={item.id} href={item.link} className={item.name}>
+                  <Link
+                    key={item.id}
+                    href={item.link}
+                    className={item.name}
+                  >
                     {item.icon}
                   </Link>
                 ))}
@@ -38,11 +45,21 @@ const Footer = () => {
           </CopyrightInfo>
 
           <FooterWidget>
-            <Fade direction='up' triggerOnce delay={200}>
-              <Heading as="h4" content={footerWidget.aboutUs.title} />
+            <Fade
+              direction="up"
+              triggerOnce
+              delay={200}
+            >
+              <Heading
+                as="h4"
+                content={footerWidget.aboutUs.title}
+              />
               <Nav>
                 {footerWidget.aboutUs.menuItems.map((item) => (
-                  <Link key={item.id} href={item.url}>
+                  <Link
+                    key={item.id}
+                    href={item.url}
+                  >
                     {item.text}
                   </Link>
                 ))}
@@ -51,11 +68,21 @@ const Footer = () => {
           </FooterWidget>
 
           <FooterWidget>
-            <Fade direction='up' triggerOnce delay={300}>
-              <Heading as="h4" content={footerWidget.ourInformation.title} />
+            <Fade
+              direction="up"
+              triggerOnce
+              delay={300}
+            >
+              <Heading
+                as="h4"
+                content={footerWidget.ourInformation.title}
+              />
               <Nav>
                 {footerWidget.ourInformation.menuItems.map((item) => (
-                  <Link key={item.id} href={item.url}>
+                  <Link
+                    key={item.id}
+                    href={item.url}
+                  >
                     {item.text}
                   </Link>
                 ))}
@@ -64,11 +91,21 @@ const Footer = () => {
           </FooterWidget>
 
           <FooterWidget>
-            <Fade direction='up' triggerOnce delay={400}>
-              <Heading as="h4" content={footerWidget.myAccount.title} />
+            <Fade
+              direction="up"
+              triggerOnce
+              delay={400}
+            >
+              <Heading
+                as="h4"
+                content={footerWidget.myAccount.title}
+              />
               <Nav>
                 {footerWidget.myAccount.menuItems.map((item) => (
-                  <Link key={item.id} href={item.url}>
+                  <Link
+                    key={item.id}
+                    href={item.url}
+                  >
                     {item.text}
                   </Link>
                 ))}

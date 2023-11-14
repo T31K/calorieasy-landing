@@ -27,8 +27,10 @@ export default function AppCreative() {
           <meta name="Description" content="Track calories in seconds with AI" />
           <meta name="theme-color" content="#6C247E" />
           <meta name="keywords" content="React, React js, Next, Next js, Super fast next js landing, Creative landing, Next js landing" />
-          <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Work+Sans" rel="stylesheet"></link>
+          <script src="https://cdn.tailwindcss.com"></script>
+
         </Head>
         {/* end of head */}
         <ResetCSS />

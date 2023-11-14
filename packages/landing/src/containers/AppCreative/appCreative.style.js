@@ -3,7 +3,7 @@ import { themeGet } from '@styled-system/theme-get';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   .reuseModalParentWrapper,
   .reuseModalOverlay {
@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   section {
     position: relative;

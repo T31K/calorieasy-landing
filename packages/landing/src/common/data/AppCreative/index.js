@@ -55,29 +55,25 @@ export const keyFeatures = {
       id: 1,
       icon: keyFeature1,
       title: 'Make Snap real',
-      description:
-        'We’re driven beyond just finishing the projects. We want to find smart solutions.',
+      description: 'We’re driven beyond just finishing the projects. We want to find smart solutions.',
     },
     {
       id: 2,
       icon: keyFeature2,
       title: 'Total Virtual Reality',
-      description:
-        'We’re driven beyond just finishing the projects. We want to find smart online solutions.',
+      description: 'We’re driven beyond just finishing the projects. We want to find smart online solutions.',
     },
     {
       id: 3,
       icon: keyFeature3,
       title: 'Full 360 View',
-      description:
-        'We’re driven beyond just finishing the projects. We want to find smart solutions.',
+      description: 'We’re driven beyond just finishing the projects. We want to find smart solutions.',
     },
     {
       id: 4,
       icon: keyFeature4,
       title: 'Artificial Intelligence',
-      description:
-        'We’re driven beyond just finishing the projects. We want to find smart solutions.',
+      description: 'We’re driven beyond just finishing the projects. We want to find smart solutions.',
     },
   ],
 };
@@ -94,20 +90,17 @@ export const chooseUs = {
     {
       id: 1,
       title: 'Front-end Development',
-      description:
-        'We’re driven beyond just finishing the projects. We want to find solutions.',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
     {
       id: 2,
       title: 'Front-end Development',
-      description:
-        'We’re driven beyond just finishing the projects. We want to find solutions.',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
     {
       id: 3,
       title: 'Front-end Development',
-      description:
-        'We’re driven beyond just finishing the projects. We want to find solutions.',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
   ],
 };
@@ -146,15 +139,13 @@ export const experiences = {
       id: 2,
       icon: expIcon2,
       title: 'Worked with experienced team',
-      description:
-        'With more than 100,000 users, we are is growing fast. Currently, we are a team of 65+ people',
+      description: 'With more than 100,000 users, we are is growing fast. Currently, we are a team of 65+ people',
     },
     {
       id: 3,
       icon: expIcon3,
       title: 'Ultimate skill development',
-      description:
-        'Life is what happens when you’re busy working. We make sure you enjoy it with ultimate experience.',
+      description: 'Life is what happens when you’re busy working. We make sure you enjoy it with ultimate experience.',
     },
     {
       id: 4,
@@ -223,43 +214,37 @@ export const features = {
       id: 1,
       thumbnail: Image1,
       title: 'Professional Environment',
-      description:
-        'We enjoy office retreats and visit famous places of our country and abroad also.',
+      description: 'We enjoy office retreats and visit famous places of our country and abroad also.',
     },
     {
       id: 2,
       thumbnail: Image2,
       title: 'Professional Environment',
-      description:
-        'We enjoy office retreats and visit famous places of our country and abroad also.',
+      description: 'We enjoy office retreats and visit famous places of our country and abroad also.',
     },
     {
       id: 3,
       thumbnail: Image3,
       title: 'Professional Environment',
-      description:
-        'We enjoy office retreats and visit famous places of our country and abroad also.',
+      description: 'We enjoy office retreats and visit famous places of our country and abroad also.',
     },
     {
       id: 4,
       thumbnail: Image4,
       title: 'Professional Environment',
-      description:
-        'We enjoy office retreats and visit famous places of our country and abroad also.',
+      description: 'We enjoy office retreats and visit famous places of our country and abroad also.',
     },
     {
       id: 5,
       thumbnail: Image5,
       title: 'Professional Environment',
-      description:
-        'We enjoy office retreats and visit famous places of our country and abroad also.',
+      description: 'We enjoy office retreats and visit famous places of our country and abroad also.',
     },
     {
       id: 6,
       thumbnail: Image6,
       title: 'Professional Environment',
-      description:
-        'We enjoy office retreats and visit famous places of our country and abroad also.',
+      description: 'We enjoy office retreats and visit famous places of our country and abroad also.',
     },
   ],
 };
@@ -474,8 +459,7 @@ import availableThumb from '../../assets/image/appCreative/availableThumb.png';
 
 export const availableStore = {
   title: 'We are available in both play store & app store ✌️',
-  description:
-    'There will be a day–in our lifetime–when we get to celebrate every person on the planet having access.',
+  description: 'There will be a day–in our lifetime–when we get to celebrate every person on the planet having access.',
   thumb: availableThumb,
   numberPrefix: [
     {
@@ -585,20 +569,15 @@ export const footerWidget = {
     },
   ],
   aboutUs: {
-    title: 'About Us',
+    title: 'About',
     menuItems: [
       {
         id: 1,
         url: '#',
-        text: 'Support Center',
-      },
-      {
-        id: 2,
-        url: '#',
         text: 'Customer Support',
       },
       {
-        id: 3,
+        id: 2,
         url: '#',
         text: 'About Us',
       },
@@ -615,7 +594,7 @@ export const footerWidget = {
       {
         id: 1,
         url: '#',
-        text: 'Return Policy',
+        text: 'Refund Policy',
       },
       {
         id: 2,
@@ -635,27 +614,17 @@ export const footerWidget = {
     ],
   },
   myAccount: {
-    title: 'My Account',
+    title: 'Related Apps',
     menuItems: [
       {
         id: 1,
-        url: '#',
-        text: 'Press inquiries',
+        url: 'https://www.myfitnesspal.com/',
+        text: 'MyFitnessPal',
       },
       {
         id: 2,
-        url: '#',
-        text: 'Social media',
-      },
-      {
-        id: 3,
-        url: '#',
-        text: 'Directories',
-      },
-      {
-        id: 4,
-        url: '#',
-        text: 'Permissions',
+        url: 'https://loseit.com/',
+        text: 'Lose It! Calorie Counter',
       },
     ],
   },

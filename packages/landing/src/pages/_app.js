@@ -1,4 +1,5 @@
 import { MantineProvider } from '@mantine/core';
+import 'common/assets/css/global.css';
 import 'common/assets/css/flaticon.css';
 import 'common/assets/css/icon-example-page.css';
 // swiper bundle styles
