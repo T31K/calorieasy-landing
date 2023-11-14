@@ -24,7 +24,10 @@ const AvailableStore = () => {
     <SectionWrapper>
       <Container>
         <TextWrapper>
-          <Heading content={title} />
+          <Heading
+            content={title}
+            as={'h2'}
+          />
           <Text content={'Scan the code below to download!'} />
           {/* <Subscribe>
             <SubscribeField>

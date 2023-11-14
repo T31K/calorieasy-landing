@@ -97,9 +97,55 @@ export const chooseUs = {
       title: 'Front-end Development',
       description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
+  ],
+};
+
+export const featureOne = {
+  title: 'Wave your phone over your food',
+  thumb: chooseThumb,
+  features: [
     {
-      id: 3,
+      id: 1,
+      title: '',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+    },
+    {
+      id: 2,
       title: 'Front-end Development',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+    },
+  ],
+};
+
+export const featureTwo = {
+  title: 'Snap a photo of your food',
+  thumb: chooseThumb,
+  features: [
+    {
+      id: 1,
+      title: 'Make sure food is clear and visible',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+    },
+    {
+      id: 2,
+      title: 'Click on the check button to confirm',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+    },
+  ],
+};
+
+export const featureThree = {
+  title: 'Let AI do the magic',
+  thumb: chooseThumb,
+  features: [
+    {
+      id: 1,
+      title: 'AI will then make rough estimate of your food',
+      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+    },
+    {
+      id: 2,
+      title: 'The app will inform you when the AI is done calculating',
       description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
     },
   ],
@@ -498,45 +544,45 @@ export const faq = {
   faqs: [
     {
       id: 1,
-      question: 'Which domain should I purchase?',
+      question: 'What is Calorieasy',
       answer:
-        "We make it easy to move to CometNine. Simply contact us and we'll move your hosting account from any other provider, regardless of the control panel. If at anytime your website is down for more than 0.1% result",
+        "Calorieasy is a mobile app designed to help you track your calorie intake effortlessly. Utilizing advanced AI technology, it allows you to scan your food items, which the app then analyzes to estimate the calorie content. This information is automatically logged, making it easier for you to keep track of your dietary intake and manage your nutritional goals. The app's intuitive interface and AI-driven analysis simplify the process of calorie counting and dietary management.",
     },
     {
       id: 2,
-      question: 'Can I upgrade or downgrade my web hosting plan',
+      question: 'How does it work??',
       answer:
-        'The pricing made me a little hesitant at first but I have been pleasantly surprised by the level of care given by CometNine.',
+        'Calorieasy works by employing cutting-edge image recognition technology. When you scan your food using the app, the AI model then analyzes the image to estimate the calorie content. This process involves identifying the food items in the picture and calculating their approximate calorie values based on a comprehensive food database. The calculated data is then automatically logged in your app, allowing you to track your calorie intake easily and accurately.',
     },
     {
       id: 3,
-      question: 'How do I upgrade the storage capacity of my hosting plan?',
+      question: 'What will I get when I upgrade to premium',
       answer:
-        'Stop your viewers from getting distracted. Publish videos to your own Channel and rest easy knowing viewers won’t be annoyed by ads or pulled down a rabbit hole of unrelated videos.',
+        'When you purchase this app, you will be entitled to enjoy all premium features, as well as all future updates for 1 year.',
     },
     {
       id: 4,
-      question: 'What are some tips when choosing a name?',
+      question: 'How to upgrade my app to premium?',
       answer:
-        'Get your website tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+        "To upgrade your app to premium, simply go to the 'Profile' tab within the app and click on 'Upgrade.' Please note, we never ask for payment details directly; all transactions are securely processed through the official payment methods provided by the App Store for iOS devices and the Google Play Store",
     },
     {
       id: 5,
-      question: 'What is in Motion Hosting’s uptime rate?',
+      question: 'How to update my app?',
       answer:
-        'Designed with beginners in mind and packed with advanced features developers will love. Start with a quick and simple install',
+        "iOS: Open the App Store on your iOS device. Tap on your profile icon at the top of the screen. Scroll to see pending updates and release notes. Find Calorieasy in the list and tap 'Update' next to it. If you don't see it, the app is already up to date. Android: Open the Google Play Store on your Android device. Tap the profile icon on the top right. Go to 'Manage apps & device.' Under 'Updates available,' look for Calorieasy. If it's listed, tap 'Update.' If not listed, your app is up to date.",
     },
     {
       id: 6,
-      question: 'What if I need help choosing the right domain?',
+      question: 'What is Calorieasy built with?',
       answer:
-        'Create a hub for cross-functional work that also works with all your other tools. Centralize and standardize communication with Miro. All premium functional are included here with updates.',
+        'Calorieasy is a mobile app built on top of Capacitor/Ionic with React. The main goal was to ship a product quick and efficiently with web technologies, without dabbling on too much native frameworks & setup.',
     },
     {
       id: 7,
-      question: 'Learn from community on Brandwagon',
+      question: 'Is Calorieasy affiliated with MyFitnessPal',
       answer:
-        'Brian Halligan knows that you need more than a great product to have a great brand. Hear his thoughts & score a peek at our wagon.',
+        'No. Calorieasy is an independent entity and is not affiliated with MyFitnessPal or its entities in any way.',
     },
   ],
 };

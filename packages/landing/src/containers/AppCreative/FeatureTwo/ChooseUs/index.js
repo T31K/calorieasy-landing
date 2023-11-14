@@ -14,7 +14,10 @@ const ChooseUs = () => {
     <SectionWrapper>
       <Container>
         <ThumbWrapper>
-          <NextImage src={thumb} alt="App Image" />
+          <NextImage
+            src={thumb}
+            alt="App Image"
+          />
         </ThumbWrapper>
 
         <TextWrapper>
@@ -23,9 +26,18 @@ const ChooseUs = () => {
             <FeatureBlock
               key={`app-feature--key${item.id}`}
               iconPosition="left"
-              icon={<Text as="span" content={'0' + item.id} />}
-              title={<Heading as="h3" content={item.title} />}
-              description={<Text content={item.description} />}
+              icon={
+                <Text
+                  as="span"
+                  content={'0' + item.id}
+                />
+              }
+              title={
+                <Heading
+                  as="h3"
+                  content={item.title}
+                />
+              }
             />
           ))}
         </TextWrapper>

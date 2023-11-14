@@ -1,4 +1,4 @@
-import React, { useState, } from 'react';
+import React, { useState } from 'react';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 import Scrollspy from 'react-scrollspy';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -45,7 +45,7 @@ const Navbar = () => {
     <NavbarWrapper className="navbar">
       <Container>
         <Logo
-          href="/appcreative"
+          href="/"
           logoSrc={logoImage}
           title="App Creative"
           className="main-logo"
@@ -53,17 +53,27 @@ const Navbar = () => {
         {/* end of logo */}
 
         <MenuArea>
-          <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
+          <ScrollSpyMenu
+            className="menu"
+            menuItems={navMenu}
+            offset={-84}
+          />
           {/* end of main menu */}
 
           <Button
             className="menubar"
             icon={
               state.mobileMenu ? (
-                <Icon className="bar" icon={x} />
+                <Icon
+                  className="bar"
+                  icon={x}
+                />
               ) : (
                 <Fade triggerOnce>
-                  <Icon className="close" icon={menu} />
+                  <Icon
+                    className="close"
+                    icon={menu}
+                  />
                 </Fade>
               )
             }

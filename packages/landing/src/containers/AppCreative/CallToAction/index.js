@@ -30,7 +30,7 @@ const CallToAction = () => {
             <ButtonWrap>
               <Button
                 title="Contact Us"
-                class="!text-green-700"
+                className="!text-green-700"
               />
             </ButtonWrap>
           </ContentWrap>

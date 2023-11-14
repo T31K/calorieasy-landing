@@ -30,3 +30,6 @@ const colors = {
 };
 
 export default colors;
+// dark: '#2c5b50',
+// primary: '#b8e0bb',
+// primaryLight: '#e3f7f2',

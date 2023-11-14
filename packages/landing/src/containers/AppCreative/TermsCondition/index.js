@@ -36,11 +36,11 @@ const KeyFeatures = () => {
             conditions. By using Calorieasy, you agree to abide by these terms.
           </p>
         </div>
-        <section class="mt-12">
+        <section className="mt-12">
           <ol className="list-decimal pl-4 mb-6">
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Data Storage:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   Calorieasy is designed to store your data locally on your device. We do not collect or store any of
                   your personal data on our servers or any external storage. Your data remains under your control and
@@ -49,9 +49,9 @@ const KeyFeatures = () => {
               </ul>
             </li>
 
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Use of the App:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   You may use Calorieasy for personal use in accordance with these terms and any applicable laws and
                   regulations.
@@ -59,9 +59,9 @@ const KeyFeatures = () => {
               </ul>
             </li>
 
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Prohibited Activities:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   While using Calorieasy, you agree not to engage in any illegal, unauthorized, or harmful activities
                   that could disrupt the app's functionality or the experience of other users.
@@ -69,9 +69,9 @@ const KeyFeatures = () => {
               </ul>
             </li>
 
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Liability:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   Calorieasy is provided "as is" and "as available." We do not make any warranties, express or implied,
                   regarding the app's accuracy, reliability, or suitability for a particular purpose. We shall not be
@@ -80,9 +80,9 @@ const KeyFeatures = () => {
               </ul>
             </li>
 
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Modifications:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   We reserve the right to modify or discontinue Calorieasy at any time. We may also update these terms
                   as needed. Any significant changes will be communicated to users.
@@ -92,13 +92,13 @@ const KeyFeatures = () => {
 
             <li>
               <strong>Contact Us:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   If you have any questions or concerns regarding these terms or the use of Calorieasy, please contact
                   us at{' '}
                   <a
                     href="mailto:support@calorieasy.app"
-                    class="text-blue-500"
+                    className="text-blue-500"
                   >
                     support@calorieasy.app
                   </a>

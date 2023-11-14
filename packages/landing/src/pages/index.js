@@ -8,7 +8,9 @@ import Navbar from 'containers/AppCreative/Navbar';
 import Banner from 'containers/AppCreative/Banner';
 import KeyFeatures from 'containers/AppCreative/KeyFeatures';
 import Experiences from 'containers/AppCreative/Experience';
-import ChooseUs from 'containers/AppCreative/ChooseUs';
+import FeatureOne from 'containers/AppCreative/FeatureOne';
+import FeatureTwo from 'containers/AppCreative/FeatureTwo';
+import FeatureThree from 'containers/AppCreative/FeatureThree';
 import Pricing from 'containers/AppCreative/Pricing';
 import Testimonials from 'containers/AppCreative/Testimonials';
 import AvailableStore from 'containers/AppCreative/AvailableStore';
@@ -62,7 +64,9 @@ export default function AppCreative() {
           <ContentWrapper>
             <Banner />
             {/* <KeyFeatures /> */}
-            <ChooseUs />
+            <FeatureOne />
+            <FeatureTwo />
+            <FeatureThree />
             {/* <Experiences /> */}
             {/* <FeatureSlider /> */}
             {/* <Pricing /> */}

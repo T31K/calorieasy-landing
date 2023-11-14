@@ -36,18 +36,18 @@ const KeyFeatures = () => {
             with our app. Please read our refund policy carefully to understand how refunds are handled.
           </p>
         </div>
-        <section class="mt-12">
+        <section className="mt-12">
           <ol className="list-decimal pl-4 mb-6">
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Free Download:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>Calorieasy is free to download and use with limited features available to all users.</li>
               </ul>
             </li>
 
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Upgraded Features:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   Users have the option to upgrade to a premium version of Calorieasy. The premium version provides
                   enhanced features and access to updates for a duration of one year from the date of purchase.
@@ -55,9 +55,9 @@ const KeyFeatures = () => {
               </ul>
             </li>
 
-            <li class="mb-4">
+            <li className="mb-4">
               <strong>Refund Eligibility:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   We offer a 100% satisfaction guarantee. If you are not completely satisfied with your purchase of the
                   premium version, you can request a refund within 14 days of the purchase date. We will refund 100%,{' '}
@@ -68,12 +68,12 @@ const KeyFeatures = () => {
 
             <li>
               <strong>How to Request a Refund:</strong>
-              <ul class="list-disc pl-6">
+              <ul className="list-disc pl-6">
                 <li>
                   To request a refund, please contact our support team at{' '}
                   <a
                     href="mailto:support@calorieasy.app"
-                    class="text-blue-500"
+                    className="text-blue-500"
                   >
                     contact@calorieasy.app
                   </a>

@@ -67,11 +67,15 @@ const Banner = () => {
               />
             </ButtonGroup>
           </Fade>
+          {/* <div className="absolute inset-0 overflow-hidden">
+            <div className="jumbo absolute -inset-[10px] opacity-20"></div>
+          </div> */}
         </BannerContent>
         <BannerImage>
           <NextImage
             src={bannerImg}
             alt="Banner"
+            className="mt-[50px]"
           />
         </BannerImage>
         <BannerImageMobile>

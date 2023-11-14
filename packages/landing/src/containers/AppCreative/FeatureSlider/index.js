@@ -8,11 +8,7 @@ import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Container from 'common/components/UI/Container';
 import { SectionHeader } from '../appCreative.style';
-import SectionWrapper, {
-  ImageGalleryWrap,
-  FeatureContactWrapper,
-  FeatureItemWrapper,
-} from './featureSlider.style';
+import SectionWrapper, { ImageGalleryWrap, FeatureContactWrapper, FeatureItemWrapper } from './featureSlider.style';
 
 import { features } from 'common/data/AppCreative';
 
@@ -32,29 +28,6 @@ const FeatureSlider = () => {
         </SectionHeader>
 
         <FeatureContactWrapper>
-          <ImageGalleryWrap>
-            <Swiper
-              thumbs={{ swiper: thumbsSwiper }}
-              modules={[Autoplay, Thumbs]}
-              spaceBetween={0}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-              }}
-            >
-              {items.map((item) => (
-                <SwiperSlide
-                  className="single__img_slider"
-                  key={`slide__thumb${item.id}`}
-                >
-                  <Image
-                    src={item.thumbnail?.src}
-                    alt={`Slide Thumb${item.id}`}
-                  />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </ImageGalleryWrap>
           <FeatureItemWrapper>
             <Swiper
               onSwiper={setThumbsSwiper}
@@ -78,7 +51,12 @@ const FeatureSlider = () => {
                   <FeatureBlock
                     iconPosition="left"
                     icon={item.id}
-                    title={<Heading as="h3" content={item.title} />}
+                    title={
+                      <Heading
+                        as="h3"
+                        content={item.title}
+                      />
+                    }
                     description={<Text content={item.description} />}
                   />
                 </SwiperSlide>
