@@ -24,13 +24,27 @@ export default function AppCreative() {
       <Fragment>
         <Head>
           <title>Calorieasy | Track calories in seconds with AI</title>
-          <meta name="Description" content="Track calories in seconds with AI" />
-          <meta name="theme-color" content="#6C247E" />
-          <meta name="keywords" content="React, React js, Next, Next js, Super fast next js landing, Creative landing, Next js landing" />
-          <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Work+Sans" rel="stylesheet"></link>
+          <meta
+            name="Description"
+            content="Track calories in seconds with AI"
+          />
+          <meta
+            name="theme-color"
+            content="#6C247E"
+          />
+          <meta
+            name="keywords"
+            content="React, React js, Next, Next js, Super fast next js landing, Creative landing, Next js landing"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans"
+            rel="stylesheet"
+          ></link>
           <script src="https://cdn.tailwindcss.com"></script>
-
         </Head>
         {/* end of head */}
         <ResetCSS />
@@ -38,21 +52,25 @@ export default function AppCreative() {
         {/* end of global and reset style */}
         {/* start app creative landing */}
         <AppWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-active">
+          <Sticky
+            top={0}
+            innerZ={9999}
+            activeClass="sticky-active"
+          >
             <Navbar />
           </Sticky>
           <ContentWrapper>
             <Banner />
-            {/* <KeyFeatures />
+            {/* <KeyFeatures /> */}
             <ChooseUs />
-            <Experiences />
-            <FeatureSlider />
-            <Pricing />
-            <Testimonials />
+            {/* <Experiences /> */}
+            {/* <FeatureSlider /> */}
+            {/* <Pricing /> */}
+            {/* <Testimonials /> */}
             <AvailableStore />
             <Faqs />
-            <CallToAction />*/}
-          </ContentWrapper> 
+            <CallToAction />
+          </ContentWrapper>
           <Footer />
         </AppWrapper>{' '}
         {/* end of app creative landing */}

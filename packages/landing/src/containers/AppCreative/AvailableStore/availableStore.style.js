@@ -4,7 +4,6 @@ import { rgba } from 'polished';
 
 const SectionWrapper = styled.section`
   padding: 60px 0 45px;
-  background-color: ${themeGet('colors.primaryLight', '#925B9F')};
   @media only screen and (max-width: 991px) {
     padding: 85px 0 90px;
   }
@@ -54,7 +53,7 @@ export const TextWrapper = styled.div`
     width: 100%;
   }
   h2 {
-    color: ${themeGet('colors.white')};
+    color: ${themeGet('colors.dark')};
     font-size: 55px;
     line-height: 1.25;
     font-weight: 700;
@@ -68,7 +67,7 @@ export const TextWrapper = styled.div`
     }
   }
   p {
-    color: ${themeGet('colors.white')};
+    color: ${themeGet('colors.dark')};
     font-size: 17px;
     line-height: 2;
     margin-bottom: 0;
@@ -90,9 +89,9 @@ export const Subscribe = styled.div`
     flex-direction: column;
   }
   button {
-    background-color: ${themeGet('colors.white')};
+    background-color: ${themeGet('colors.primary')};
     min-width: 120px;
-    border-radius: 7px;
+    border-radius: 8px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -108,7 +107,7 @@ export const Subscribe = styled.div`
 `;
 
 export const SubscribeField = styled.div`
-  border: 2px solid ${themeGet('colors.white')};
+  border: 2px solid ${themeGet('colors.dark')};
   border-radius: 5px;
   width: 325px;
   display: flex;
@@ -139,7 +138,7 @@ export const SubscribeField = styled.div`
     .select__single-value {
       font-size: 18px;
       font-weight: 700;
-      color: ${themeGet('colors.white')};
+      color: ${themeGet('colors.dark')};
     }
     .select__indicator-separator {
       display: none;
@@ -147,7 +146,7 @@ export const SubscribeField = styled.div`
     .select__indicators .select__indicator {
       padding: 0;
       .css-6q0nyr-Svg {
-        fill: ${themeGet('colors.white')};
+        fill: ${themeGet('colors.dark')};
         height: 16px;
         margin-left: -10px;
       }
@@ -161,14 +160,14 @@ export const SubscribeField = styled.div`
       border-radius: 8px;
       background-color: transparent;
       border: 0px solid;
-      color: ${themeGet('colors.white')};
+      color: ${themeGet('colors.dark')};
       font-family: 'Raleway', sans-serif;
       ::placeholder {
-        color: ${rgba('#ffffff', 0.8)};
+        color: ${rgba('#222', 0.8)};
         opacity: 1; /* Firefox */
       }
       &:focus {
-        border-color: #ffffff;
+        border-color: #222;
       }
 
       @media only screen and (max-width: 1280px) {
@@ -181,7 +180,7 @@ export const SubscribeField = styled.div`
 export const BarCodeArea = styled.div`
   margin-top: 27px;
   .bar__code {
-    color: ${themeGet('colors.white')};
+    color: ${themeGet('colors.dark')};
     font-size: 17px;
     text-transform: none;
     .btn-text {
