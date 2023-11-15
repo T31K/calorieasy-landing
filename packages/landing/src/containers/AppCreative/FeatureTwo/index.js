@@ -16,22 +16,14 @@ const FeatureTwo = () => {
         <TextWrapper>
           <Heading content={title} />
           {features.map((item) => (
-            <FeatureBlock
-              key={`app-feature--key${item.id}`}
-              iconPosition="left"
-              icon={
-                <Text
-                  as="span"
-                  content={'0' + item.id}
-                />
-              }
-              title={
-                <Heading
-                  as="h3"
-                  content={item.title}
-                />
-              }
-            />
+            <div className="flex flex-col mb-6">
+              <Heading
+                as="h3"
+                className="mb-0"
+                content={item.title}
+              />
+              <p>{item.description}</p>
+            </div>
           ))}
         </TextWrapper>
         <ThumbWrapper>

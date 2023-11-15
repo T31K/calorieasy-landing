@@ -59,6 +59,7 @@ const Footer = () => {
                   <Link
                     key={item.id}
                     href={item.url}
+                    target={item.url.includes('http') && '_blank'}
                   >
                     {item.text}
                   </Link>
@@ -82,6 +83,7 @@ const Footer = () => {
                   <Link
                     key={item.id}
                     href={item.url}
+                    target={item.url.includes('http') && '_blank'}
                   >
                     {item.text}
                   </Link>
@@ -105,6 +107,7 @@ const Footer = () => {
                   <Link
                     key={item.id}
                     href={item.url}
+                    target={item.url.includes('http') && '_blank'}
                   >
                     {item.text}
                   </Link>

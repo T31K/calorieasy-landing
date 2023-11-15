@@ -15,6 +15,7 @@ import BannerWrapper, {
 } from './banner.style';
 
 import bannerImg from 'common/assets/image/appCreative/bannerImg.png';
+import mobileBanner from 'common/assets/image/features/feature_2.png';
 import appStoreImg from 'common/assets/image/app_store.png';
 import googlePlayImg from 'common/assets/image/google_play.png';
 import bannerImgMobile from 'common/assets/image/appCreative/availableThumb.png';
@@ -26,6 +27,11 @@ const Banner = () => {
     <BannerWrapper id="home">
       <Container>
         <BannerContent>
+          <NextImage
+            src={mobileBanner}
+            alt="Mobile Banner"
+            className="!w-[150vw] block md:hidden mb-5"
+          />
           <Fade
             direction="up"
             delay={100}
@@ -37,12 +43,24 @@ const Banner = () => {
           </Fade>
           <Fade
             direction="up"
-            delay={200}
+            delay={300}
           >
             <Text
               content="Wave your phone over your food, snap a photo & viola!"
               className="!mt-[-10px]"
             />
+            <ButtonGroup className="mt-4 flex justify-center md:block">
+              <Button
+                className="primary !rounded-xl !text-gray-900 font-bold w-[200px]"
+                title="Track calories now!"
+              />
+            </ButtonGroup>
+            <p className="!text-sm ml-1 mt-1.5 text-center md:text-left">Free To Try (No credit card required)</p>
+          </Fade>
+          {/* <Fade
+            direction="up"
+            delay={200}
+          >
             <div className="flex items-center gap-2 mt-3">
               <NextImage
                 src={appStoreImg}
@@ -55,18 +73,7 @@ const Banner = () => {
                 height={60}
               />
             </div>
-          </Fade>
-          <Fade
-            direction="up"
-            delay={300}
-          >
-            <ButtonGroup>
-              <Button
-                className="primary !rounded-xl font-bold mb-[80px]"
-                title="Coming soon!"
-              />
-            </ButtonGroup>
-          </Fade>
+          </Fade> */}
           {/* <div className="absolute inset-0 overflow-hidden">
             <div className="jumbo absolute -inset-[10px] opacity-20"></div>
           </div> */}
@@ -78,12 +85,6 @@ const Banner = () => {
             className="mt-[50px]"
           />
         </BannerImage>
-        <BannerImageMobile>
-          <NextImage
-            src={bannerImgMobile}
-            alt="Mobile Banner"
-          />
-        </BannerImageMobile>
       </Container>
     </BannerWrapper>
   );

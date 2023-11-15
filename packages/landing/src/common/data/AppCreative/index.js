@@ -81,11 +81,13 @@ export const keyFeatures = {
 /* ------------------------------------ */
 // Choose us data section
 /* ------------------------------------ */
-import chooseThumb from '../../assets/image/appCreative/chooseThumb.png';
+import featureOneThumb from '../../assets/image/features/feature_1.png';
+import featureTwoThumb from '../../assets/image/features/feature_2.png';
+import featureThreeThumb from '../../assets/image/features/feature_3.png';
 
 export const chooseUs = {
   title: 'Why you choose Custom app for your daily use?',
-  thumb: chooseThumb,
+  thumb: featureOneThumb,
   features: [
     {
       id: 1,
@@ -101,52 +103,54 @@ export const chooseUs = {
 };
 
 export const featureOne = {
-  title: 'Wave your phone over your food',
-  thumb: chooseThumb,
+  title: 'Set daily calorie goals',
+  thumb: featureOneThumb,
   features: [
     {
       id: 1,
-      title: '',
-      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+      title: 'Answer a few simple questions',
+      description:
+        "Just to understand your daily calorie intake, activity level and we'll calculate what's the recommended TDEE for you.",
     },
     {
       id: 2,
-      title: 'Front-end Development',
-      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+      title: 'Adjust if needed',
+      description: 'After the questions, you can set the values to your preference.',
     },
   ],
 };
 
 export const featureTwo = {
-  title: 'Snap a photo of your food',
-  thumb: chooseThumb,
+  title: 'Wave the food over your food',
+  thumb: featureTwoThumb,
   features: [
     {
       id: 1,
       title: 'Make sure food is clear and visible',
-      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+      description:
+        'Use good lighting and make sure all portions are clearly visible. This helps the AI make a more accurate approximation.',
     },
     {
       id: 2,
       title: 'Click on the check button to confirm',
-      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+      description: "Our AI will then do its magic and we'll automatically log the food and their calorific information",
     },
   ],
 };
 
 export const featureThree = {
-  title: 'Let AI do the magic',
-  thumb: chooseThumb,
+  title: 'Tracking made easy',
+  thumb: featureThreeThumb,
   features: [
     {
       id: 1,
-      title: 'AI will then make rough estimate of your food',
-      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+      title: 'Automatic timestamps',
+      description: "We'll log based on whenever you snapped the food and add it to your daily goal. ",
     },
     {
       id: 2,
-      title: 'The app will inform you when the AI is done calculating',
-      description: 'We’re driven beyond just finishing the projects. We want to find solutions.',
+      title: 'Calendar view',
+      description: 'The calendar view will have all your logs from any other day, ready to view.',
     },
   ],
 };
@@ -504,8 +508,8 @@ export const testimonial = {
 import availableThumb from '../../assets/image/appCreative/availableThumb.png';
 
 export const availableStore = {
-  title: 'We are available in both play store & app store ✌️',
-  description: 'There will be a day–in our lifetime–when we get to celebrate every person on the planet having access.',
+  title: 'Coming soon to both iOS App Store & Google App Store',
+  description: '',
   thumb: availableThumb,
   numberPrefix: [
     {
@@ -618,19 +622,9 @@ export const footerWidget = {
     title: 'About',
     menuItems: [
       {
-        id: 1,
-        url: '#',
-        text: 'Customer Support',
-      },
-      {
-        id: 2,
-        url: '#',
-        text: 'About Us',
-      },
-      {
         id: 4,
-        url: '#',
-        text: 'Copyright',
+        url: 'https://github.com/T31K',
+        text: 'About Us',
       },
     ],
   },

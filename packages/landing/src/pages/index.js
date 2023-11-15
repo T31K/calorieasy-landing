@@ -8,6 +8,7 @@ import Navbar from 'containers/AppCreative/Navbar';
 import Banner from 'containers/AppCreative/Banner';
 import KeyFeatures from 'containers/AppCreative/KeyFeatures';
 import Experiences from 'containers/AppCreative/Experience';
+import AsSeenOn from 'containers/AppCreative/AsSeenOn';
 import FeatureOne from 'containers/AppCreative/FeatureOne';
 import FeatureTwo from 'containers/AppCreative/FeatureTwo';
 import FeatureThree from 'containers/AppCreative/FeatureThree';
@@ -64,6 +65,7 @@ export default function AppCreative() {
           <ContentWrapper>
             <Banner />
             {/* <KeyFeatures /> */}
+            <AsSeenOn />
             <FeatureOne />
             <FeatureTwo />
             <FeatureThree />

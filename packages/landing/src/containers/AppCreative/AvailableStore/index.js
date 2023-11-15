@@ -7,6 +7,7 @@ import Heading from 'common/components/Heading';
 import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 import barCodeImg from 'common/assets/image/qr.png';
+import downloadPhoneImg from 'common/assets/image/download_phone.png';
 import SectionWrapper, {
   ThumbWrapper,
   TextWrapper,
@@ -50,24 +51,26 @@ const AvailableStore = () => {
             />
           </Subscribe> */}
           <div className="flex gap-4">
-            <BarCodeArea className="flex flex-col items-center justify-center">
+            <BarCodeArea className="flex flex-col items-center justify-center relative">
               <NextImage
                 src={barCodeImg}
-                className="bg-green-200 p-1.5 rounded-lg"
+                className="bg-green-200 p-1.5 rounded-lg blur-[2px]"
                 width={170}
                 height={170}
                 alt="Scan"
               />
+              <div className="absolute rotate-[-30deg] px-4 rounded-lg top-[70px] bg-green-500">Coming Soon</div>
               <p className="mt-5">Google Play Store</p>
             </BarCodeArea>
-            <BarCodeArea className="flex flex-col items-center justify-center">
+            <BarCodeArea className="flex flex-col items-center justify-center relative">
               <NextImage
                 src={barCodeImg}
-                className="bg-blue-200 p-1.5 rounded-lg"
+                className="bg-blue-200 p-1.5 rounded-lg blur-[2px]"
                 width={170}
                 height={170}
                 alt="Scan"
               />
+              <div className="absolute rotate-[-30deg] px-4 rounded-lg top-[70px] bg-blue-500">Coming Soon</div>
               <p className="mt-5">iOS App Store</p>
             </BarCodeArea>
           </div>
@@ -78,7 +81,7 @@ const AvailableStore = () => {
             triggerOnce
           >
             <NextImage
-              src={thumb}
+              src={downloadPhoneImg}
               alt="App Image"
             />
           </Fade>
