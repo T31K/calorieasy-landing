@@ -13,20 +13,23 @@ const FeatureTwo = () => {
   return (
     <SectionWrapper>
       <Container className="justify-end">
-        <TextWrapper>
-          <Heading content={title} />
+        <TextWrapper className="md:order-2">
+          <Heading
+            content={'Snap a photo'}
+            className="text-center md:text-left mt-7 md:mt-0"
+          />
           {features.map((item) => (
             <div className="flex flex-col mb-6">
               <Heading
                 as="h3"
-                className="mb-0"
+                className="mb-0 ml-8 mt-5 md:ml-0 md:mt-0"
                 content={item.title}
               />
-              <p>{item.description}</p>
+              <p className="w-[80%] ml-8 md:ml-0">{item.description}</p>
             </div>
           ))}
         </TextWrapper>
-        <ThumbWrapper>
+        <ThumbWrapper className="mx-auto mb-5 md:m-0 md:order-1 md:mr-8">
           <NextImage
             src={thumb}
             alt="App Image"

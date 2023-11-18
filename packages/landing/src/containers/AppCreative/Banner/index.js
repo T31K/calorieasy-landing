@@ -27,7 +27,7 @@ import { SectionBgArea } from '../Pricing/pricing.style';
 const Banner = () => {
   return (
     <BannerWrapper id="home">
-      <SectionBgArea className="h-[100vh] opacity-[60%]">
+      <SectionBgArea className="h-[100vh] opacity-[60%] hidden md:block">
         <div className="shape-one">
           <NextImage
             src={illustration}
@@ -54,7 +54,8 @@ const Banner = () => {
           >
             <Heading
               as="h1"
-              content="Track calories in seconds with AI"
+              className="whitespace-nowrap text-center md:text-left"
+              content="Track calories with AI"
             />
           </Fade>
           <Fade
@@ -62,8 +63,8 @@ const Banner = () => {
             delay={300}
           >
             <Text
-              content="Wave your phone over your food, snap a photo & viola!"
-              className="!mt-[-10px]"
+              content="Snap a photo & viola!"
+              className="!mt-[-10px] text-center md:text-left "
             />
             <ButtonGroup className="mt-4 flex justify-center md:block">
               <Button
