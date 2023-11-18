@@ -56,18 +56,10 @@ const Pricing = () => {
 
   return (
     <SectionWrapper id="pricing">
-      <SectionBgArea>
-        <div className="shape-one">
-          <NextImage src={illustration} alt="Shape" />
-        </div>
-        <div className="shape-two">
-          <NextImage src={illustration2} alt="Shape" />
-        </div>
-      </SectionBgArea>
       <Container>
-        <SectionHeader className="text-white">
-          <Heading content={title} />
-          <Text content={slogan} />
+        <SectionHeader className="text-gray-800">
+          <Heading content={'Pricing '} />
+          <Text content={'Upgrade for the best experience!'} />
         </SectionHeader>
         <ContentWrapper>
           <ContentPricing>
@@ -83,15 +75,10 @@ const Pricing = () => {
                 key={priceTable.id}
                 className={priceTable.isRecommended && 'isRecommended'}
               >
-                {priceTable.isRecommended && (
-                  <div className="recommended">Recommended</div>
-                )}
+                {priceTable.isRecommended && <div className="recommended">Recommended</div>}
 
                 <h2 className="title">{priceTable.package_name}</h2>
-                <div className="price">
-                  ${priceTable.price}
-                  <span>/ mo.</span>
-                </div>
+                <div className="price">{priceTable.price}</div>
                 <ul className="featureList">
                   {priceTable.features.map((feature) => (
                     <FeatureItem key={feature.id}>
@@ -106,11 +93,15 @@ const Pricing = () => {
                           />
                         )
                       ) : feature.isAvailable ? (
-                        <Icon
-                          icon={ic_check_circle}
-                          size={18}
-                          style={{ color: '#3CC68A' }}
-                        />
+                        feature?.custom ? (
+                          <>Limited</>
+                        ) : (
+                          <Icon
+                            icon={ic_check_circle}
+                            size={18}
+                            style={{ color: '#3CC68A' }}
+                          />
+                        )
                       ) : (
                         <Icon
                           icon={closeCircled}
@@ -122,24 +113,13 @@ const Pricing = () => {
                   ))}
                 </ul>
                 <Button
-                  title="Choose Plan"
-                  className={`${
-                    !priceTable.isRecommended && 'primaryOutlined'
-                  } choosePlan`}
+                  title="Upgrade now"
+                  className={`${!priceTable.isRecommended && 'primaryOutlined'} choosePlan`}
                 />
-                <p className="trial">{priceTable.trial_day} days free trial</p>
+                <p className="trial invisible h-[17px]">{priceTable.trial_day} days free trial</p>
               </PriceTable>
             ))}
           </ContentPricing>
-          <ContentWrap>
-            <Heading
-              as="h3"
-              content="Are you looking for custom price? Let’s talk about it."
-            />
-            <ButtonWrap>
-              <Button title="Contact Us Now!" />
-            </ButtonWrap>
-          </ContentWrap>
         </ContentWrapper>
       </Container>
     </SectionWrapper>

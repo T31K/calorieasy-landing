@@ -71,7 +71,7 @@ export default function AppCreative() {
             <FeatureThree />
             {/* <Experiences /> */}
             {/* <FeatureSlider /> */}
-            {/* <Pricing /> */}
+            <Pricing />
             {/* <Testimonials /> */}
             <AvailableStore />
             <Faqs />

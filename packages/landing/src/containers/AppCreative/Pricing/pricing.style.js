@@ -132,7 +132,7 @@ export const PriceTable = styled.div`
   &.isRecommended {
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 15px 50px ${rgba('#5B84C1', 0.1)};
-    border: 0px solid;
+    border: 1px solid #58f168;
     @media screen and (max-width: 480px) {
       margin-top: 33px;
     }
@@ -148,7 +148,7 @@ export const PriceTable = styled.div`
     }
   }
   .recommended {
-    background-color: #52acff;
+    background-color: #58f168;
     color: ${themeGet('colors.white')};
     text-transform: uppercase;
     font-size: 14px;

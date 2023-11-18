@@ -17,12 +17,12 @@ export const navbar = {
       path: '#features',
       offset: '73',
     },
-    // {
-    //   id: 3,
-    //   label: 'Pricing',
-    //   path: '#pricing',
-    //   offset: '73',
-    //  },
+    {
+      id: 3,
+      label: 'Pricing',
+      path: '#pricing',
+      offset: '73',
+    },
     // {
     //   id: 4,
     //   label: 'Client',
@@ -308,30 +308,26 @@ export const pricing = {
   pricingFeature: [
     {
       id: 1,
-      name: 'Full Access Library',
+      name: 'Calorie Count with AI',
     },
     {
       id: 2,
-      name: 'Multiple user',
+      name: 'Meal logging',
     },
     {
       id: 3,
-      name: 'Refund Policy',
+      name: 'Macros breakdown',
     },
     {
       id: 4,
-      name: 'Google Analytics',
-    },
-    {
-      id: 5,
-      name: '24/7 support',
+      name: 'Analytics',
     },
   ],
   pricingItems: [
     {
       id: 1,
-      package_name: 'Starter Pack',
-      price: '18',
+      package_name: 'Free',
+      price: '0',
       trial_day: 15,
       isRecommended: false,
       features: [
@@ -339,6 +335,7 @@ export const pricing = {
           id: 1,
           name: 'Full Access Library',
           isAvailable: true,
+          custom: true,
         },
         {
           id: 2,
@@ -355,17 +352,12 @@ export const pricing = {
           name: 'Google Analytics',
           isAvailable: false,
         },
-        {
-          id: 5,
-          name: '24/7 support',
-          isAvailable: false,
-        },
       ],
     },
     {
       id: 2,
-      package_name: 'Premium Pack',
-      price: '29',
+      package_name: 'Premium',
+      price: '$9.99/mo',
       trial_day: 30,
       isRecommended: true,
       features: [
@@ -387,19 +379,14 @@ export const pricing = {
         {
           id: 4,
           name: 'Google Analytics',
-          isAvailable: false,
-        },
-        {
-          id: 5,
-          name: '24/7 support',
-          isAvailable: false,
+          isAvailable: true,
         },
       ],
     },
     {
       id: 3,
-      package_name: 'Ultimate Pack',
-      price: '35',
+      package_name: 'Custom',
+      price: 'Contact Us',
       trial_day: 45,
       isRecommended: false,
       features: [
@@ -422,11 +409,6 @@ export const pricing = {
           id: 4,
           name: 'Google Analytics',
           isAvailable: true,
-        },
-        {
-          id: 5,
-          name: '24/7 support',
-          isAvailable: false,
         },
       ],
     },

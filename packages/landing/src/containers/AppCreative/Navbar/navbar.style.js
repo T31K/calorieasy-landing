@@ -47,7 +47,7 @@ const NavbarWrapper = styled.nav`
       }
       &.is-current {
         a {
-          color: ${themeGet('colors.primary', '#6C247E')};
+          color: #36853f !important;
         }
       }
     }
@@ -180,8 +180,7 @@ export const MobileMenu = styled.div`
     &.active {
       opacity: 1;
       visibility: visible;
-      box-shadow: 0 3px 12px
-        ${themeGet('colors.shadow', 'rgba(38, 78, 118, 0.1)')};
+      box-shadow: 0 3px 12px ${themeGet('colors.shadow', 'rgba(38, 78, 118, 0.1)')};
     }
     .container {
       width: 100%;

@@ -69,7 +69,7 @@ export const AppWrapper = styled.div`
         li {
           &.is-current {
             a {
-              color: ${themeGet('colors.primary', '#6C247E')};
+              color: #58f168 !important;
             }
           }
         }
