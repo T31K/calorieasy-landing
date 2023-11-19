@@ -46,7 +46,7 @@ const Banner = () => {
           <NextImage
             src={mobileBanner}
             alt="Mobile Banner"
-            className="!w-[150vw] block md:hidden mb-5"
+            className="!w-[full] block md:hidden mb-5 "
           />
           <Fade
             direction="up"
