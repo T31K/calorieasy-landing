@@ -20,6 +20,7 @@ import CallToAction from 'containers/AppCreative/CallToAction';
 import FeatureSlider from 'containers/AppCreative/FeatureSlider';
 import Footer from 'containers/AppCreative/Footer';
 import GlobalStyle, { AppWrapper, ContentWrapper } from 'containers/AppCreative/appCreative.style';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function AppCreative() {
   return (
@@ -49,6 +50,7 @@ export default function AppCreative() {
           ></link>
           <script src="https://cdn.tailwindcss.com"></script>
         </Head>
+        <Analytics />
         {/* end of head */}
         <ResetCSS />
         <GlobalStyle />

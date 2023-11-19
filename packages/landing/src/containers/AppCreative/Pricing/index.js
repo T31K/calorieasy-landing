@@ -72,13 +72,13 @@ const Pricing = () => {
                   <div>
                     <p className="uppercase text-sm font-medium text-gray-500">Free</p>
 
-                    <p className="mt-4 text-4xl text-gray-700 font-medium">
+                    <div className="mt-4 text-4xl text-gray-700 font-medium">
                       <div className="price-wrapper">
                         {/* <div className="price-slash"></div> */}
-                        <div className="price text-4xl font-bold">$0</div>
+                        <p className="price text-4xl font-bold">$0</p>
                       </div>
                       {/* <span className="price ml-3">$29</span> */}
-                    </p>
+                    </div>
 
                     <p className="mt-4 font-medium text-gray-700">per month</p>
 
@@ -146,13 +146,13 @@ const Pricing = () => {
                   <div>
                     <p className="uppercase text-sm font-medium text-gray-500">Premium</p>
 
-                    <p className="mt-4 text-4xl text-gray-700 font-medium">
+                    <div className="mt-4 text-4xl text-gray-700 font-medium">
                       <div className="price-wrapper">
                         {/* <div className="price-slash"></div> */}
-                        <div className="price text-4xl font-bold">$5.99</div>
+                        <p className="price text-4xl font-bold">$5.99</p>
                       </div>
                       {/* <span className="price ml-3">$29</span> */}
-                    </p>
+                    </div>
 
                     <p className="mt-4 font-medium text-gray-700">per month</p>
 
@@ -236,13 +236,13 @@ const Pricing = () => {
             </div>
             {activeTab === 0 ? (
               <div className="custom-container-mobile opacity-[85%]">
-                <p className="mt-4 text-4xl text-gray-500 font-medium">
+                <div className="mt-4 text-4xl text-gray-500 font-medium">
                   <div className="price-wrapper">
                     {/* <div className="price-slash"></div> */}
-                    <div className="price text-4xl font-bold">$0</div>
+                    <p className="price text-4xl font-bold">$0</p>
                   </div>
                   {/* <span className="price ml-3">$29</span> */}
-                </p>
+                </div>
 
                 <p className="mt-4 font-medium text-gray-600">Free to use</p>
 
@@ -302,13 +302,13 @@ const Pricing = () => {
               </div>
             ) : (
               <div className="custom-container-mobile ">
-                <p className="mt-4 text-4xl text-gray-700 font-medium">
+                <div className="mt-4 text-4xl text-gray-700 font-medium">
                   <div className="price-wrapper">
                     {/* <div className="price-slash"></div> */}
-                    <div className="price text-4xl font-bold">$9.99</div>
+                    <p className="price text-4xl font-bold">$9.99</p>
                   </div>
                   {/* <span className="price ml-3">$29</span> */}
-                </p>
+                </div>
 
                 <p className="mt-4 font-medium text-gray-700">One time payment</p>
 
