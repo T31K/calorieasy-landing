@@ -8,11 +8,13 @@ import 'common/assets/css/react-slick.css';
 import 'common/assets/css/rc-collapse.css';
 import 'rc-collapse/assets/index.css';
 import 'common/assets/css/rc-drawer.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function CustomApp({ Component, pageProps }) {
   return (
-      <MantineProvider>
-        <Component {...pageProps} />
-      </MantineProvider>
+    <MantineProvider>
+      <Component {...pageProps} />
+      <Analytics />
+    </MantineProvider>
   );
 }
