@@ -61,3 +61,47 @@
 .dark .jumbo::after {
   background-image: var(--stripesDark), var(--rainbow);
 }
+
+
+
+.custom-container {
+  border-radius: 20px;
+  background:#fafafa;
+  border: 1px solid #eaeaea;
+  padding: 25px;
+}
+
+.custom-container-mobile {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background:#fafafa;
+  border: 1px solid #eaeaea;
+  border-top: none;
+  padding: 25px;
+}
+
+.custom-container-tab {
+  background:#fafafa;
+  border: 1px solid #eaeaea;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+
+.custom-container-tab-between {
+  border-bottom: 1px solid #eaeaea;
+  
+}
+
+
+.custom-container-alt {
+  border-radius: 20px;
+  padding: 25px;
+  background:#fafafa;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;    
+  white-space: nowrap;
+}

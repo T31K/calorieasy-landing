@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "gatsby-plugin-mantine": "^5.0.0",
+    "react-icons": "^4.12.0",
     "react-waypoint": "^10.1.0"
   }
 }
