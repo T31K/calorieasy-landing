@@ -13,7 +13,6 @@ import BannerWrapper, {
   ButtonGroup,
   VideoWrapper,
 } from './banner.style';
-
 import bannerImg from 'common/assets/image/appCreative/bannerImg.png';
 import mobileBanner from 'common/assets/image/features/feature_2.png';
 import appStoreImg from 'common/assets/image/app_store.png';
@@ -24,6 +23,7 @@ import bannerImgMobile from 'common/assets/image/appCreative/availableThumb.png'
 import { Fade } from 'react-awesome-reveal';
 import VideoDialog from 'common/components/Dialog/videoDialog';
 import { SectionBgArea } from '../Pricing/pricing.style';
+import Link from 'common/components/Link';
 const Banner = () => {
   return (
     <BannerWrapper id="home">
@@ -67,10 +67,13 @@ const Banner = () => {
               className="!mt-[-10px] text-center md:text-left "
             />
             <ButtonGroup className="mt-4 flex justify-center md:block">
-              <Button
-                className="scale-[1.2] ml-5 mb-4 !rounded-xl !text-gray-900 font-bold w-[200px] bg-[#58F168]"
-                title="Track calories now!"
-              />
+              <Link href="https://track.calorieasy.app/">
+                <Button
+                  className="scale-[1.2] ml-5 mb-4 !rounded-xl !text-gray-900 font-bold w-[200px] bg-[#58F168]"
+                  title="Track calories now!"
+                  href="https://google.com/"
+                />
+              </Link>
             </ButtonGroup>
             <p className="!text-sm ml-1 mt-1.5 text-center md:text-left">Free To Try (No credit card required)</p>
           </Fade>
