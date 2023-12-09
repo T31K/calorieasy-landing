@@ -71,7 +71,7 @@ const Banner = () => {
                 <Button
                   className="scale-[1.2] ml-5 mb-4 !rounded-xl !text-gray-900 font-bold w-[200px] bg-[#58F168]"
                   title="Track calories now!"
-                  href="https://google.com/"
+                  href="https://apps.apple.com/sg/app/calorieasy-calorie-counter/id6471479401"
                 />
               </Link>
             </ButtonGroup>
