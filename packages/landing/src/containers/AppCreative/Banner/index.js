@@ -67,7 +67,7 @@ const Banner = () => {
               className="!mt-[-10px] text-center md:text-left "
             />
             <ButtonGroup className="mt-4 flex justify-center md:block">
-              <Link href="https://track.calorieasy.app/">
+              <Link href="https://apps.apple.com/sg/app/calorieasy-calorie-counter/id6471479401">
                 <Button
                   className="scale-[1.2] ml-5 mb-4 !rounded-xl !text-gray-900 font-bold w-[200px] bg-[#58F168]"
                   title="Track calories now!"
