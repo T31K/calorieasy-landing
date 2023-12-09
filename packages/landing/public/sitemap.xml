@@ -20,4 +20,8 @@
        <loc>https://www.sidepod.app/sitemap.xml</loc>
        <lastmod>2023-11-14</lastmod>
     </url>
+    <url>
+       <loc>https://www.sidepod.app/purchase_success</loc>
+       <lastmod>2023-12-09</lastmod>
+    </url>
 </urlset>
