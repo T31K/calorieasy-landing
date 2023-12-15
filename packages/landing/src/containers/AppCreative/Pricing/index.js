@@ -251,7 +251,7 @@ const Pricing = () => {
                     <li className="inline-flex items-center text-gray-900 font-semibold">AI calorie counting</li>
                     <li className="inline-flex items-center text-gray-600">
                       <MdCheck className="bg-yellow-100 text-yellow-500 text-2xl font-bold mr-2 rounded-full p-1" />3
-                      requests per day
+                      scans per day
                     </li>
                     <li className="inline-flex items-center text-gray-600">
                       <MdCheck className="bg-yellow-100 text-yellow-500 text-2xl font-bold mr-2 rounded-full p-1" />
@@ -305,19 +305,19 @@ const Pricing = () => {
                 <div className="mt-4 text-4xl text-gray-700 font-medium">
                   <div className="price-wrapper">
                     {/* <div className="price-slash"></div> */}
-                    <p className="price text-4xl font-bold">$9.99</p>
+                    <p className="price text-4xl font-bold">$5.99</p>
                   </div>
                   {/* <span className="price ml-3">$29</span> */}
                 </div>
 
-                <p className="mt-4 font-medium text-gray-700">One time payment</p>
+                <p className="mt-4 font-medium text-gray-700">Monthly </p>
 
                 <div className="mt-8">
                   <ul className="grid grid-cols-1 gap-4">
                     <li className="inline-flex items-center text-gray-900 font-semibold">AI calorie counting</li>
                     <li className="inline-flex items-center text-gray-600">
                       <MdCheck className="bg-green-100 text-green-500 text-2xl font-bold mr-2 rounded-full p-1" />
-                      Unlimited requests
+                      Unlimited scans
                     </li>
                     <li className="inline-flex items-center text-gray-600">
                       <MdCheck className="bg-green-100 text-green-500 text-2xl font-bold mr-2 rounded-full p-1" />
@@ -325,7 +325,7 @@ const Pricing = () => {
                     </li>
                     <li className="inline-flex items-center text-gray-600">
                       <MdCheck className="bg-green-100 text-green-500 text-2xl font-bold mr-2 rounded-full p-1" />
-                      Faster counting speed
+                      Faster scan speed
                     </li>
                     <li className="inline-flex items-center text-gray-600">
                       <MdCheck className="bg-green-100 text-green-500 text-2xl font-bold mr-2 rounded-full p-1" />
