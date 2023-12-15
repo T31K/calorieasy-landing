@@ -244,7 +244,7 @@ const Pricing = () => {
                   {/* <span className="price ml-3">$29</span> */}
                 </div>
 
-                <p className="mt-4 font-medium text-gray-600">Free to use</p>
+                <p className="mt-4 font-medium text-gray-600">per month</p>
 
                 <div className="mt-8">
                   <ul className="grid grid-cols-1 gap-4">
@@ -310,7 +310,7 @@ const Pricing = () => {
                   {/* <span className="price ml-3">$29</span> */}
                 </div>
 
-                <p className="mt-4 font-medium text-gray-700">Monthly </p>
+                <p className="mt-4 font-medium text-gray-700">per month </p>
 
                 <div className="mt-8">
                   <ul className="grid grid-cols-1 gap-4">
